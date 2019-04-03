@@ -10,7 +10,7 @@ const cors = require('cors')
     app.use(cors())
 
     // DATABASE: MONGODB
-    mongoose.connect('mongodb://localhost/testingapi', {useNewUrlParser: true}).then(() => {
+    mongoose.connect(process.env.MONGO_URL, {useNewUrlParser: true}).then(() => {
         console.log('DATABASE | ON |')
     })
 
