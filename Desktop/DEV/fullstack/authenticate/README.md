@@ -15,4 +15,4 @@ This repo contains an example authentication of the Adonis Framework.
 • Make a copy of ```.env.example``` rename it to ```.env```\
 • Run adonis ```key:generate``` to generate the secret key\
 • Run adonis ```migration:run``` to setup the database\
-• Run ```adonis serve --dev``` to run the app\
+• Run ```adonis serve --dev``` to run the app
